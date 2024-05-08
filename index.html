@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechPro audífonos</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/x-icon" href="./img/header.avif">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="contenedor contenido-header">
+                <div class="imagen-header">
+                    <picture>
+                        <source
+                            sizes="1920w"
+                            srcset="img/header.avif 1920w"
+                            type="image/avif">
+                        <source
+                            sizes="1920w"
+                            srcset="img/header.webp 1920w"
+                            type="image/webp">
+                        <source
+                            sizes="1920w"
+                            srcset="img/header.png 1920w"
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async"
+                            src="img/header.png"
+                            lazyalt width="1000" height="500">
+                    </picture>
+                </div> <!-- .imagen-header -->
+                <div class="texto-header">
+                    <p class="tagline-producto">Sonido profesional</p>
+                    <h1 class="nombre-producto degradado-verde">TechPro</h1>
+                    <p class="descripcion-producto">Bienvenido al mundo de los
+                        audífonos TechPro, donde la innovación y la calidad se
+                        unen para ofrecerte una experiencia auditiva
+                        excepcional. Diseñados con tecnología de vanguardia y
+                        una atención meticulosa a cada detalle, los audífonos
+                        TechPro están a la vanguardia de la revolución del
+                        sonido.</p>
+                    <p class="precio-producto">Desde <span>S./299.00</span></p>
+                </div>
+            </div>
+        </header>
+
+        <section class="contenedor">
+            <div class="iconos">
+                <div class="icono">
+                    <img src="img/icono-sonido.svg"/ alt="Icono">
+                    <h3>Gran sonido</h3>
+                    <p>
+                        Sumérgete en una experiencia auditiva excepcional con
+                        los audífonos TechPro. Diseñados para ofrecer un sonido
+                        nítido y envolvente, cada nota y cada ritmo cobran vida
+                        con una claridad impresionante.
+                    </p>
+                </div>
+                <div class="icono">
+                    <img src="img/icono-garantia.svg"/ alt="Icono">
+                    <h3>Garantía de por vida</h3>
+                    <p>
+                        Con los audífonos TechPro, tu satisfacción está
+                        garantizada de por vida. Respaldamos la calidad de
+                        nuestros productos con una garantía que te brinda
+                        tranquilidad y confianza en tu inversión.
+                    </p>
+                </div>
+
+                <div class="icono">
+                    <img src="img/icono-bateria.svg"/ alt="Icono">
+                    <h3>+20 de reproducción</h3>
+                    <p>
+                        Disfruta de tu música favorita durante más tiempo con
+                        los audífonos TechPro. Con una impresionante autonomía
+                        de más de 20 horas de reproducción continua, podrás
+                        disfrutar de tu banda sonora sin interrupciones durante
+                        todo el día.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre-tech">
+            <div class="contenedor sobre-tech-grid">
+                <div class="texto-sobre-tech">
+                    <h2>Sobre los <span>TechPro</span></h2>
+                    <p>Ya sea que estés buscando sumergirte en tu música
+                        favorita, disfrutar de un audio de alta fidelidad
+                        durante tus entrenamientos o comunicarte con claridad en
+                        llamadas importantes, los audífonos TechPro están
+                        diseñados para elevar cada momento auditivo. Únete a la
+                        revolución del sonido con TechPro y descubre un nuevo
+                        estándar en calidad de audio y comodidad.</p>
+                </div>
+            </div>
+        </section>
+
+        <main class="contenedor modelos">
+            <h2 class="text-center degradado-verde header-modelos">Elige tus
+                TechPRO</h2>
+            <div class="listado-modelos">
+                <div class="modelo modelo-x">
+                    <h3>TechPro X</h3>
+                    <p class="precio"> S./299.00</p>
+                </div>
+                <div class="modelo modelo-y">
+                    <h3>TechPro Y</h3>
+                    <p class="precio"> S./399.00</p>
+                </div>
+                <div class="modelo modelo-z">
+                    <h3>TechPro Z</h3>
+                    <p class="precio"> S./499.00</p>
+                </div>
+            </div>
+        </main>
+
+        <section class="newsletter">
+            <div class="contenido-newsletter contenedor">
+                <div class="texto-newsletter">
+                    <p>¿Quieres estar siempre informado sobre las últimas
+                        novedades, consejos útiles y ofertas exclusivas?
+                        Suscríbete a nuestro boletín informativo y recibe
+                        contenido relevante directamente en tu bandeja de
+                        entrada. Es la manera perfecta de mantenerte al día con
+                        todo lo que necesitas saber, sin tener que buscar en
+                        diferentes lugares. ¡Únete a nuestra comunidad de
+                        suscriptores y no te pierdas ni un solo detalle!</p>
+                    <form class="formulario">
+                        <div class="input">
+                            <input type="text" placeholder="Tu correo" />
+                        </div>
+                        <input type="submit" placeholder="Inscribirme" />
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <hr class="copyright-division">
+            <p>Todos los derechos reservados</p>
+        </footer>
+
+        <script src="/js/imagenes.js"></script>
+    </body>
+</html>
